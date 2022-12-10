@@ -14,7 +14,7 @@ namespace cadastroSimples
         //Construtor
         public Conexao()
         {
-            con.ConnectionString = (@"Data Source=LAPTOP-AL96SA4E\SQLEXPRESS;integrated security=SSPI;initial Catalog=cadastro_simples");
+            con.ConnectionString = ("");
         }
         //Metodo Conectar
         public SqlConnection conectar()
